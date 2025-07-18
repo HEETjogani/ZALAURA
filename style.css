@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #2E2E2E;
+  background: #F9F6F2;
+}
+
+header {
+  background: #C5A880;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #F9F6F2;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #F9F6F2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+}
+
+.btn-shop {
+  background: #C5A880;
+  color: #F9F6F2;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.section-title {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  padding: 1rem;
+}
+
+.subsection-title {
+  margin-left: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.about {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.contact {
+  padding: 2rem;
+  background: #EFE7DA;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 0.7rem;
+  background: #C5A880;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.footer {
+  background: #EFE7DA;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #C5A880;
+  text-decoration: none;
+}
